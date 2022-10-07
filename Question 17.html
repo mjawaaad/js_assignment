@@ -1,0 +1,30 @@
+<script>
+    let ppl = ["Jawad", "Ahmad", "Salman"];
+    for (let i = 0; i< ppl.length; i++) {
+        document.write(ppl[i] + " come for dinner please. <br>");
+    }
+    document.write("I have a bigger party let me add more friends <br><br>");
+
+    ppl.push("Mushtaq");
+    ppl.push("Abdullah");
+
+    for (let i = 0; i< ppl.length; i++) {
+        document.write(ppl[i] + " come for dinner please. <br>");
+    }
+
+
+    document.write("<br> Our table is short so we had only capacity of 2 friends <br><br>")
+
+    for (let i = 0; i < 3; i++) {
+        document.write(ppl[i] + " sorry you are removed from the list <br>");
+    }
+
+    document.write("<br> <br>")
+
+    for (let i = 0; i< ppl.length; i++) {
+        document.write(ppl[i] + " You are still invited please join. <br>");
+    }
+
+
+
+</script>
