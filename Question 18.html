@@ -1,0 +1,37 @@
+<script>
+    let country = ["Saudi", "Palestine", "Australia", "Pakistan", "China"];
+
+    document.write("The array is in its orignal form <br>");
+    document.write(country);
+
+    let sorted_cont = country;
+    sorted_cont = sorted_cont.sort();
+    document.write("<br><br>Arrays in Alphabetical Order: <br>");
+    document.write(sorted_cont);
+
+    document.write("<br><br> The Array is still in orignal condition: <br>");
+    document.write(country);
+
+    let rvrs_cont = country;
+    rvrs_cont = rvrs_cont.reverse();
+    document.write("<br><br>Arrays in Reverse Order: <br>");
+    document.write(rvrs_cont);
+
+    let rvrs_cont_rvrs = rvrs_cont;
+    rvrs_cont_rvrs = rvrs_cont_rvrs.reverse();
+    document.write("<br><br>The Array is again reversed: <br>");
+    document.write(rvrs_cont_rvrs);
+
+    let rvrs_sort = rvrs_cont_rvrs;
+    rvrs_sort = rvrs_cont.sort();
+    document.write("<br><br>The Reverse Array is Sorted: <br>");
+    document.write(rvrs_sort);
+
+    let rvrs_sort_rvrs = rvrs_sort;
+    rvrs_sort_rvrs = rvrs_sort_rvrs.reverse();
+    document.write("<br><br>The reverse sorted array is again reversed: <br>");
+    document.write(rvrs_sort_rvrs);
+
+    
+
+</script>
